@@ -1,6 +1,7 @@
 # dvd-rip #
 
-Dead-simple shell script to easily rip encrypted DVDs to ISO files without hassle or fuss.
+Dead-simple shell script to rip encrypted DVDs to ISO files without hassle or fuss.
+
 (ab)uses mplayer and libdvdcss magic for block decryption.
 
 ## Example Usage ##
