@@ -1,12 +1,12 @@
 # dvd-rip #
 
-Dead-simple shell script to easily rip encrypted DVDs to disk without hassle or fuss.
-
+Dead-simple shell script to easily rip encrypted DVDs to ISO files without hassle or fuss.
+(ab)uses mplayer and libdvdcss magic for block decryption.
 
 ## Example Usage ##
 
 ```
-[clockfort@clockfort-desktop ~]$ ./rip_dvd.sh /dev/sr0 /mnt/local_storage/test.iso
+[clockfort@desktop ~]$ ./rip_dvd.sh /dev/sr0 /mnt/local_storage/test.iso
 About to rip a DVD at /dev/sr0 to a file at /mnt/local_storage/test.iso, with detected block size of 2048 and detected number of blocks as 1937368, for an approximate total size of 3.69 GB.
 Does that sound correct? y
 Attempting to decrypt blocks so we can copy them...
